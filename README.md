@@ -17,6 +17,7 @@
 <li><a href="Home.html">Home</a></li>
 <li><a href="10things.html">My future</a></li>
 <li><a href="ContactMe.html">Contact me & Feedback</a></li>
+<li><a href="QuizF.html">Javascript Quiz</a></li>
 
 </ul>
 </nav>
