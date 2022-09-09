@@ -1,0 +1,121 @@
+
+body{
+  background-color: #e6e6e6;
+	font-family: montserrat;
+}
+.top-container{
+	margin: auto;
+  width: 60%;
+  border: 8px solid black;
+  padding: 10px;
+  background-color: #F5F5DC ;
+}
+.quiz-container{
+   margin: auto;
+  width: 60%;
+  border: 8px solid black;
+  padding: 10px;
+  background-color: #b3ecff ;
+}
+.quiz-header{
+  padding: 4rem;
+}
+h2{
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+ul li{
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+ul li label{
+  cursor: pointer;
+}
+button{
+  background-color: #03cae4;
+  color: #fff;
+  border: none;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-family: inherit;
+  padding: 1.3rem;
+}
+button:hover{
+  background-color: #04adc4;
+}
+button:focus{
+  outline: none;
+  
+  
+}
+div.b{
+	text-align: center; 
+  font-size: 150%;
+  font-family: Arial, Helvetica, sans-serif;
+	
+}
+nav{
+	background: #b3ecff;
+	height: 80px;
+	width: 100%
+}
+label.logo{
+	color:white;
+	font-size:35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+nav ul{
+		float: right;
+		margin-right:20px;
+		
+		
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+	
+	
+}
+nav ul li a{
+	color:white;
+	font-size:17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	
+}
+*{
+	padding: 0;
+	margin:0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+div.a{
+	border: 10px solid black;
+	 font-family: "Sofia", sans-serif;
+  text-align: center;
+  font-size: 200%;
+  
+  
+}
+div.b{
+	text-align: center; 
+  font-size: 150%;
+  font-family: Arial, Helvetica, sans-serif;
+	
+}
+a.active, a:hover{
+	background: #1b9bff;
+	transition: .5s;
+}
