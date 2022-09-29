@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title >Animation of sport</title>
+	<link href="CSS.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+	<meta name="viewport" content="width=device-width, initial-scale1.0">
+	
+	
+
+	
+</head>
+
+<body onload="init();"> 
+
+<nav>
+<label class="logo">Me.com</label>
+<ul>
+<li><a href="Home.html">Home</a></li>
+<li><a href="10things.html">My future</a></li>
+<li><a href="ContactMe.html">Contact me & Feedback</a></li>
+<li><a href="QuizF.html">Javascript Quiz</a></li>
+<li><a href="adobeAnimation.html">Animation of my sport</a></li>
+</ul>
+</nav>
+
+<div class="a">
+
+	<h1 >The sport that I practice </h1>
+	</div>
+	
+	<br>
+	
+	
+	<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+<script src="tennis animation_HTML5 Canvas.js"></script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("68A9655546A4FB41BEB901E6DA000E6C");
+	var lib=comp.getLibrary();
+	handleComplete({},comp);
+}
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	exportRoot = new lib.tennisanimation_HTML5Canvas();
+	stage = new lib.Stage(canvas);	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
+		createjs.Ticker.framerate = lib.properties.fps;
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	AdobeAn.makeResponsive(false,'both',false,1,[canvas,anim_container,dom_overlay_container]);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+}
+</script>
+<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:960px; height:540px">
+		<canvas id="canvas" width="960" height="540" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:960px; height:540px; position: absolute; left: 0px; top: 0px; display: block;">
+		</div>
+	</div>
+</div>
+
+<br><br>
+<hr>
+<br><br>
+<div class="b">
+    <footer>
+	
+  <p>Hector L. Reyes <br>
+  My number---><a href="(407)485-5839">(407)485-5839</a><br>
+  
+  My email---><a href="reyes_131055@students.pupr.edu">reyes_131055@students.pupr.edu</a></p>
+  <br>
+  <blockquote cite=https://wealthygorilla.com/16-inspirational-robert-de-niro-quotes/>
+“Time goes on. So whatever you’re going to do, do it. Do it now. Don’t wait.” – Robert De Niro
+</blockquote> 
+</footer>
+</div>
+	
+	
+	<br><br>
+	<br><br>
+	<br><br>
+
+	
+	
+	
+	
+	
+	
+	
+</body>
+</html> 
+
