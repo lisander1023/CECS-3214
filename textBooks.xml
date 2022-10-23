@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="textBooks.xsl" type="text/xsl"?>
+<textbooks>
+   <textbook>
+      <title>Data Abstraction and Problem Solving with C++</title>
+      
+         <author>
+            <firstName>Frank M.</firstName>
+            <lastName>Carrano</lastName>
+         </author>     
+     
+         <publisher>Pearson</publisher>
+         <website>https://www.pearson.com/en-us.html</website>
+   
+      <Year-of-Publication>2012</Year-of-Publication>
+      <ISBN>0132923726</ISBN>
+      <edition>6</edition>
+      <cover-type>hardcover</cover-type>
+   </textbook>
+   
+   <textbook>
+      <title>Engineering Mechanics: Combined Statics and Dynamics</title>
+         <author>
+            <firstName>Russell C.</firstName>
+            <lastName>Hibbeler</lastName>
+         </author>
+      
+         <publisher>Prentice Hall</publisher>
+         <website>https://www.savvas.com/</website>
+    
+      <Year-of-Publication>2009</Year-of-Publication>
+      <ISBN>0138149291</ISBN>
+      <edition>12</edition>
+      <cover-type>paperback</cover-type>
+   </textbook>
+</textbooks>
+
